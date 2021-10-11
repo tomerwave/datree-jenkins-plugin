@@ -1,0 +1,23 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    Datree
+
+    <f:entry title="Ignore missing schemas when executing schema validation step" field="ignoreMissingSchemas">
+          <f:checkbox checked="${instance == null || instance.ignoreMissingSchemas == true}"/>
+      </f:entry>
+
+      <f:section title="">
+           <f:entry title="Target file" field="targetFile">
+            <f:textbox/>
+          </f:entry>
+          <f:entry title="Define output format" field="output">
+            <f:textbox/>
+          </f:entry>
+          <f:entry title="Policy name to run against" field="policy">
+            <f:textbox/>
+          </f:entry>
+          <f:entry title="Set kubernetes version to validate against. Defaults to 1.18.0" field="schemaVersion">
+            <f:textbox/>
+          </f:entry>
+      </f:section>
+</j:jelly>
