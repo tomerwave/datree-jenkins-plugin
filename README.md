@@ -13,7 +13,7 @@ To use the plugin up you will need to take the following steps in order:
 1. [Install the Datree Plugin](#1-install-the-datree-plugin)
 2. [Configure a Datree Installation](#2-configure-a-datree-installation)
 3. [Add Datree to Your Jenkins Pipeline/Freestyle Project](#3-add-datree-to-your-project)
-4. [Run a Build and Enjoy Datree Preventing Misconfigurations](#4-enjoy-datree)
+4. [Run a Build and Enjoy Datree Preventing Misconfigurations](#4-run-a-build-and-enjoy-datree-preventing-misconfigurations)
 
 ## 1. Install the Datree Plugin
 
@@ -161,5 +161,5 @@ Sets the Kubernetes version to validate against. Defaults to 1.18.0.
 
 By default, Datree Installations will download Datree's binaries over the network
 from [Datree.io Github Releases](https://github.com/datreeio/datree/releases/). If this fails there may be a network or
-proxy issue. If you cannot fix the issue, you can use a [Manual Installation](#2-configure-a-datree-installation)
+proxy issue. If you cannot fix the issue, you can use a [Manual Installation](#manual-installations)
 instead.
